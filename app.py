@@ -9,8 +9,8 @@ from io import BytesIO
 langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)
 
 def main():
-    st.image("123=.jpeg")
-    st.title(" 123: Audio Hub")
+    st.image("tiger.jpg")
+    st.title("TIGER: Audio Hub")
     
     audio_bytes = audio_recorder(text="Click to record", neutral_color="#6aa36f")
     
